@@ -63,13 +63,14 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-h1 {
+header h1 {
     color: #AA9955;
     font-size: calc(1vw + 1rem);
     line-height: 2;
-    font-style: italic;
-    font-weight: 900;
-    margin: 0 0 .5em;
+    font-style: regular;
+    font-weight: 200;
+    margin: 0 0 0;
+    text-align: center;
 }
 
 #container {
@@ -84,29 +85,53 @@ h1 {
     border: 5px solid lightcoral;
 }
 
-nav {
-    border: 5px solid rgb(200, 78, 145);
-}
 
 main {
     border: 5px solid rgb(80, 78, 145);
 }
 
+header p {
+    font-style: italic;
+    color: #AA9955;
+    color: #AA9955;
+    font-size: 1rem;
+    line-height: 2;
+    font-weight: 100;
+    text-align: center;
+}
+
+nav {
+    border: 5px solid rgb(200, 78, 145);
+    background: #F1F1F1;
+}
+
 nav ul {
     display: flex;
+    flex-flow: wrap;
 }
 
 nav ul li{
-    background: #99FF99;
-    height: 70px;
-    padding: 0px 5px;
-    margin: 0 5px;
-    text-align: center;
+    height: 100%;
+    padding: 0px 0px;
+    margin: 0 0px;
     font-weight: 600;
+
+
 }
 
 
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: calc(1vh + .5em) 16px;
+    text-align: center;
+    color: #333333;
+}
 
+nav ul li a:hover{
+    background: rgb(78, 154, 78);
+    color: white;
+}
 
 img {
     display: block;
