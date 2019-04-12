@@ -172,7 +172,7 @@ section p {
 }
 
 section article {
-    margin: calc(1vh + 1em) 0;
+    margin: calc(1vh + 2em) 0;
 }
 
 section article h2 {
