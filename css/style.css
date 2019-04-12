@@ -63,16 +63,6 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-header h1 {
-    color: #AA9955;
-    font-size: calc(1vw + 1rem);
-    line-height: 2;
-    font-style: regular;
-    font-weight: 200;
-    margin: 0 0 0;
-    text-align: center;
-}
-
 #container {
     border: 5px solid lightcoral;
 }
@@ -90,10 +80,24 @@ main {
     border: 5px solid rgb(80, 78, 145);
 }
 
+header {
+    background: rgb(255, 231, 159);
+    height: 100%;
+    padding: calc(2vh + 1vw + 2em) 0;
+}
+
+header h1 {
+    color: #333333;
+    font-size: calc(1vw + 1rem);
+    line-height: 2;
+    font-style: regular;
+    font-weight: 200;
+    text-align: center;
+}
+
 header p {
     font-style: italic;
-    color: #AA9955;
-    color: #AA9955;
+    color: #444444;
     font-size: 1rem;
     line-height: 2;
     font-weight: 100;
@@ -102,7 +106,9 @@ header p {
 
 nav {
     border: 5px solid rgb(200, 78, 145);
-    background: #F1F1F1;
+    background: #333333;
+    border-bottom: 2px solid #fefefe;
+
 }
 
 nav ul {
@@ -115,29 +121,29 @@ nav ul li{
     padding: 0px 0px;
     margin: 0 0px;
     font-weight: 600;
-
-
 }
-
 
 nav ul li a{
     display: block;
     text-decoration: none;
     padding: calc(1vh + .5em) 16px;
     text-align: center;
-    color: #333333;
+    color: #DDDDDD;
 }
 
 nav ul li a:hover{
-    background: rgb(78, 154, 78);
-    color: white;
+    background: rgb(158, 226, 255);
+    color: black;
+}
+
+main {
+    margin: 0 calc(3vw + 10%);
 }
 
 img {
     display: block;
-    margin: 0 calc(-50vw+50%);
-    max-width: 100vw;
+    max-width: 100%;
     width: 100vw;
-    max-height: 30vh;
-    object-fit: cover;
+    max-height: 500px;
+    object-fit: contain;
 }
