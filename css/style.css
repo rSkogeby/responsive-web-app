@@ -72,6 +72,42 @@ h1 {
     margin: 0 0 .5em;
 }
 
+#container {
+    border: 5px solid lightcoral;
+}
+
+#products {
+    border: 5px solid lightcoral;
+}
+
+#classes {
+    border: 5px solid lightcoral;
+}
+
+nav {
+    border: 5px solid rgb(200, 78, 145);
+}
+
+main {
+    border: 5px solid rgb(80, 78, 145);
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li{
+    background: #99FF99;
+    height: 70px;
+    padding: 0px 5px;
+    margin: 0 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+
 img {
     display: block;
     margin: 0 calc(-50vw+50%);
