@@ -187,6 +187,11 @@ section#classes {
     padding: 10em 0;
 }
 
+#classes h2 {
+    font-size: 1.5em;
+    color: white;
+}
+
 section table {
     display: inline-block;
     text-align: left;
