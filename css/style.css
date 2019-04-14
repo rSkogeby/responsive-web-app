@@ -49,24 +49,27 @@ table {
 
 /* Add styling
 */
-
 html {
     position: relative;
+    font-size: 16px;
+}
+
+@media (max-width: 640px) {
+    html {
+        font-size: 12px;
+    }
 }
 
 body {
     margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     overflow-x: hidden;
 }
-
-
 
 main {
     display: inline-block;
@@ -91,7 +94,6 @@ header h1 {
 header p {
     font-style: italic;
     color: #444444;
-    font-size: 1rem;
     line-height: 2;
     font-weight: 100;
     text-align: center;
@@ -130,7 +132,6 @@ nav ul li a:hover{
 
 main {
     margin: 0 calc(3vw + 2%);
-    margin-bottom: 100px;
 }
 
 section {
@@ -153,7 +154,6 @@ section p {
     font-style: regular;
     font-family: 'Playfair Display', serif;
     color: #777777;
-    font-size: 1rem;
     line-height: 1.3;
     font-weight: 100;
     text-align: justify;
@@ -176,21 +176,20 @@ section article h2 {
 section article h3 {
     font-style: italic;
     color: #444444;
-    font-size: 1rem;
     line-height: 2;
     font-weight: 100;
     text-align: center;
+}
+
+#classes h2 {
+    font-size: 1.5em;
+    color: white;
 }
 
 section#classes {
     background: #3388FF;
     margin: 0 calc(-50vw + 50%);
     padding: 10em 0;
-}
-
-#classes h2 {
-    font-size: 1.5em;
-    color: white;
 }
 
 section table {
@@ -201,6 +200,7 @@ section table {
     font-size: .8rem;
     margin: 2em 2em;
 }
+
 
 section table th {
     font-size: .7rem;
@@ -228,21 +228,21 @@ section table tr:nth-child(1):hover {
 }
 
 section#story {
-    float: left;
-    margin: 0 1.5%;
-    width: 63%;
+
 }
 
 aside#newsletter {
-    float: right;
-    margin: 0 1.5%;
-    width: 30%;
+    width: 100vw;
+    line-height: 1.4;
+    background: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
 }
+
 
 #container {
     /* Margin bottom by footer height */
-    margin-bottom: 100px;
-  }
+    margin-bottom: 7rem;
+}
 
 footer {
     background: #2c2f33;
@@ -250,7 +250,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 100px;
+    height: 7rem;
     text-align: left;
 }
 
